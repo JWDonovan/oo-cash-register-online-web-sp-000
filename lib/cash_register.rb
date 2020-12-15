@@ -12,7 +12,7 @@ class CashRegister
     @total += price
 
     quantity.times do
-      @items << item
+      items << title
     end
   end
 
